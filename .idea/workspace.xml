@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4fee995-6a02-4349-afaf-765e6298f909" name="변경" comment="사칙연산 계산기 구현2 - enum 안에 추상메서드 추가 후 오버라이드">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ArithmeticOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ArithmeticOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" afterDir="false" />
-    </list>
+    <list default="true" id="a4fee995-6a02-4349-afaf-765e6298f909" name="변경" comment="사칙연산 계산기 구현3 - enum 안에 calculate() 추가" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -144,7 +139,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662961163462</updated>
       <workItem from="1662961165335" duration="9378000" />
-      <workItem from="1662981197976" duration="35000" />
+      <workItem from="1662981197976" duration="495000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1662961837177</created>
@@ -188,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662979410322</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="사칙연산 계산기 구현3 - enum 안에 calculate() 추가">
+      <created>1662981556277</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662981556277</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +216,7 @@
     <MESSAGE value="사칙연산 계산기 구현2 - 리펙토링" />
     <MESSAGE value="사칙연산 계산기 구현2 - enum 이용한 리펙토링" />
     <MESSAGE value="사칙연산 계산기 구현2 - enum 안에 추상메서드 추가 후 오버라이드" />
-    <option name="LAST_COMMIT_MESSAGE" value="사칙연산 계산기 구현2 - enum 안에 추상메서드 추가 후 오버라이드" />
+    <MESSAGE value="사칙연산 계산기 구현3 - enum 안에 calculate() 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="사칙연산 계산기 구현3 - enum 안에 calculate() 추가" />
   </component>
 </project>
