@@ -23,7 +23,6 @@ public class CalculatorTest {
     @DisplayName("덧셈 연산을 수행한다.")
     @Test
     void additionTest() {
-
         int result = Calculator.calculate(1, "+", 2);
         assertThat(result).isEqualTo(3);
     }
