@@ -44,7 +44,8 @@ public class CalculatorTest {
     @Test
     void calculateExceptionTest() {
        assertThatCode(() -> org.example02.Calculator.calculate(10, "/", 0))
-               .isInstanceOf(IllegalArgumentException.class);
+               .isInstanceOf(IllegalArgumentException.class)
+               .hasMessage("0으로는 나눌수 없습니다.");
     }
 
     /*
