@@ -45,13 +45,13 @@ public class CalculatorTest {
         );
     }
 
-    @DisplayName("나눗셈에서 0을 나누는 경우 IllegalArgument 예외를 발생시킨다.")
-    @Test
-    void calculateExceptionTest() {
-       assertThatCode(() -> org.example02.Calculator.calculate(new PositiveNumber(10), "/", new PositiveNumber(0)))
-               .isInstanceOf(IllegalArgumentException.class)
-               .hasMessage("0으로는 나눌수 없습니다.");
-    }
+//    @DisplayName("나눗셈에서 0을 나누는 경우 IllegalArgument 예외를 발생시킨다.")
+//    @Test
+//    void calculateExceptionTest() {
+//       assertThatCode(() -> org.example02.Calculator.calculate(new PositiveNumber(10), "/", new PositiveNumber(0)))
+//               .isInstanceOf(IllegalArgumentException.class)
+//               .hasMessage("0으로는 나눌수 없습니다.");
+//    }
 
     /*
     @DisplayName("뺄셈 연산을 수행한다.")
