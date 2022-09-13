@@ -4,6 +4,8 @@ import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
+import static org.assertj.core.api.Assertions.assertThat;
+
 /**
  학점계산기 구현
  • 요구사항
@@ -21,6 +23,11 @@ public class GradeCalculatorTest {
     void calculateGradeTest() {
         List<Course> courses = List.of(new Course("OOP", 3, "A+"),
                 new Course("자료구조", 3, "A+"));
+
+        GradeCalculator gradeCalculator = new GradeCalculator(courses);
+        double gradeResult = gradeCalculator.calculateGrade();
+
+        assertThat(gradeResult).isEqualTo(4.5);
     }
 }
 
