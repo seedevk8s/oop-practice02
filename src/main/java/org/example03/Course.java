@@ -10,4 +10,8 @@ public class Course {
         this.credit = credit;
         this.grade = grade;
     }
+
+    public double getCredit() {
+        return 0;
+    }
 }
