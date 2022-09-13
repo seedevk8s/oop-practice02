@@ -2,6 +2,8 @@ package org.example03;
 
 import org.junit.jupiter.api.Test;
 
+import java.util.List;
+
 /**
  학점계산기 구현
  • 요구사항
@@ -17,5 +19,16 @@ public class GradeCalculatorTest {
 
     @Test
     void calculateGradeTest() {
+        List<Course> courses = List.of(new Course("OOP", 3, "A+"),
+                new Course("자료구조", 3, "A+"));
     }
 }
+
+
+
+
+
+
+
+
+
